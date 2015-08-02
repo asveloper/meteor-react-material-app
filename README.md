@@ -1,4 +1,4 @@
-<h1>Meteor + React + Material UI base<h1>
+<h1>Meteor + React + Material UI base</h1>
 
 <p>Currently the Meteor-React packages (react-packages) aren’t in the public index and the react package doesn’t run nice with Material UI package, so we'll install React via browserify and the rest a la Meteor way.</p>
 
