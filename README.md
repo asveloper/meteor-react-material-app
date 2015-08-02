@@ -1,5 +1,6 @@
-Meteor + React + Material UI base
-Currently the Meteor-React packages (react-packages) aren’t in the public index and the react package doesn’t run nice with Material UI package (see #11), so we'll install React via browserify and the rest a la Meteor way.
+<h1>Meteor + React + Material UI base<h1>
+
+<p>Currently the Meteor-React packages (react-packages) aren’t in the public index and the react package doesn’t run nice with Material UI package, so we'll install React via browserify and the rest a la Meteor way.</p>
 
 <pre>
   git clone https://github.com/meteor/react-packages /path/to/react-packages
@@ -37,7 +38,7 @@ Then we create a local package browserify-deps, to store all our browserify depe
     api.export('injectTapEventPlugin', 'client');
   });
 
-  <br><br>
+  <br>
   And now let's install our package
 
   meteor add browserify-deps
@@ -106,6 +107,7 @@ Just to wire all the things together here is a minimal example
       }
 
       return (
+  </pre>
         <AppCanvas>
           <AppBar title='Meteor ❤ React ❤ Material UI' iconClassNameRight="muidocs-icon-navigation-expand-more"/>
           <div className="spacer" style={styles}>
@@ -115,6 +117,7 @@ Just to wire all the things together here is a minimal example
                         onChange={this._onChange} />
           </div>
         </AppCanvas>
+ <pre>
       );
     }
 
