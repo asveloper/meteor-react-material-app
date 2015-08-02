@@ -51,10 +51,6 @@ Then we create a local package browserify-deps, to store all our browserify depe
 
 Our Meteor + React + Material UI is ready and we can now start coding!
 
-<br><br>
-
-We don't use any router in this example so, let's attach the react component when Meteor is ready.
-
 <pre>
   // client/startup.jsx
   Meteor.startup(function () {
